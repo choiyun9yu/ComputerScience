@@ -26,8 +26,8 @@
 [Legacy](https://github.com/choiyun9yu/Legacy)  
 
 ## Front-end
-[React.js](https://github.com/choiyun9yu/React/blob/main/React/README.md)    
-[CSS](https://github.com/choiyun9yu/CSS)  
+- [React.js](https://github.com/choiyun9yu/React/blob/main/React/README.md)    
+- [CSS](https://github.com/choiyun9yu/CSS)  
 
 ## Back-end
 - [Springboot](https://github.com/choiyun9yu/Springboot)  
