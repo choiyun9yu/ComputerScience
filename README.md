@@ -34,7 +34,7 @@
 
 ## Back-end
 - [Springboot](https://github.com/choiyun9yu/Springboot)  
-- [Django](https://github.com/choiyun9yu/Django)  
+- [Django](https://github.com/choiyun9yu/Django)
 
 <br>
 
@@ -42,3 +42,8 @@
 - [Database](https://github.com/choiyun9yu/Database)
 - [Data Analysis](https://github.com/choiyun9yu/DataAnalysis)
 - [Deep Learning](https://github.com/choiyun9yu/DeepLearning)
+
+# etc.
+[Git](https://github.com/choiyun9yu/OperatingSystem/blob/main/Git.md)  
+[Docker](https://github.com/choiyun9yu/OperatingSystem/blob/main/Docker.md)  
+
