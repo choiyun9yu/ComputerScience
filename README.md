@@ -8,9 +8,11 @@
 
 [Data Structure](https://github.com/choiyun9yu/ComputerScience/blob/main/Algorithm.md)  
 
-[Algorithm](https://github.com/choiyun9yu/ComputerScience/blob/main/DataStructure.md)  
+[Algorithm](https://github.com/choiyun9yu/ComputerScience/blob/main/DataStructure.md)    
 
-[Shell Script](https://github.com/choiyun9yu/OperatingSystem/blob/main/Linux/ShellScript.md)   
+[Shell Script](https://github.com/choiyun9yu/OperatingSystem/blob/main/Linux/ShellScript.md)    
+
+[Regular Expression](https://github.com/choiyun9yu/OperatingSystem/blob/main/%EC%A0%95%EA%B7%9C%ED%91%9C%ED%98%84%EC%8B%9D.md)  
 
 [Programming Language](https://github.com/choiyun9yu/ComputerScience/blob/main/ProgrammingLanguage.md)    
 - [C#](https://github.com/choiyun9yu/Csharp/blob/main/README.md)
