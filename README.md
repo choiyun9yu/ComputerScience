@@ -10,10 +10,7 @@
 [Algorithm](https://github.com/choiyun9yu/ComputerScience/blob/main/Algorithm.md)  
 
 [Shell Script](https://github.com/choiyun9yu/OperatingSystem/blob/main/Linux/ShellScript.md)    
-[Regular Expression](https://github.com/choiyun9yu/OperatingSystem/blob/main/%EC%A0%95%EA%B7%9C%ED%91%9C%ED%98%84%EC%8B%9D.md)   
-
-[Object-Oriented Programming](https://github.com/choiyun9yu/ComputerScience/blob/main/OOP.md)  
-[Functional Programming](https://github.com/choiyun9yu/ComputerScience/blob/main/FunctionalProgramming.md)  
+[Regular Expression](https://github.com/choiyun9yu/OperatingSystem/blob/main/%EC%A0%95%EA%B7%9C%ED%91%9C%ED%98%84%EC%8B%9D.md)    
 
 [Programming Language](https://github.com/choiyun9yu/ComputerScience/blob/main/ProgrammingLanguage.md)    
 - [C#](https://github.com/choiyun9yu/Csharp/blob/main/README.md)
@@ -50,3 +47,5 @@
 [Git](https://github.com/choiyun9yu/OperatingSystem/blob/main/Git.md)  
 [Docker](https://github.com/choiyun9yu/OperatingSystem/blob/main/Docker.md)  
 
+[Object-Oriented Programming](https://github.com/choiyun9yu/ComputerScience/blob/main/OOP.md)  
+[Functional Programming](https://github.com/choiyun9yu/ComputerScience/blob/main/FunctionalProgramming.md) 
