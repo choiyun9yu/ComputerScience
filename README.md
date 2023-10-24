@@ -6,9 +6,6 @@
 - [MacOS](https://github.com/choiyun9yu/OperatingSystem/blob/main/MacOS/README.md)
 - [Windows](https://github.com/choiyun9yu/OperatingSystem/blob/main/Windows/README.md)
 
-[Data Structure](https://github.com/choiyun9yu/ComputerScience/blob/main/DataStructure.md)    
-[Algorithm](https://github.com/choiyun9yu/ComputerScience/blob/main/Algorithm.md)  
-
 [Shell Script](https://github.com/choiyun9yu/OperatingSystem/blob/main/Linux/ShellScript.md)    
 [Regular Expression](https://github.com/choiyun9yu/OperatingSystem/blob/main/%EC%A0%95%EA%B7%9C%ED%91%9C%ED%98%84%EC%8B%9D.md)    
 
@@ -16,7 +13,10 @@
 - [C#](https://github.com/choiyun9yu/Csharp/blob/main/README.md)
 - [Java](https://github.com/choiyun9yu/Java/blob/main/Part1.md)
 - [JavaScript](https://github.com/choiyun9yu/JavaScript/blob/main/README.md)
-- [Python](https://github.com/choiyun9yu/Python/blob/main/README.md)
+- [Python](https://github.com/choiyun9yu/Python/blob/main/README.md)  
+
+[Data Structure](https://github.com/choiyun9yu/ComputerScience/blob/main/DataStructure.md)      
+[Algorithm](https://github.com/choiyun9yu/ComputerScience/blob/main/Algorithm.md)   
 
 [Object-Oriented Programming](https://github.com/choiyun9yu/ComputerScience/blob/main/OOP.md)  
 [Functional Programming](https://github.com/choiyun9yu/ComputerScience/blob/main/FunctionalProgramming.md) 
