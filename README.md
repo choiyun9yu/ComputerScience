@@ -30,7 +30,7 @@
 
 ## Front-end
 [React.js](https://github.com/choiyun9yu/React/blob/main/React/README.md)    
-[HTML](https://github.com/choiyun9yu/HTML)
+[HTML](https://github.com/choiyun9yu/CSS/HTML.md)    
 [CSS](https://github.com/choiyun9yu/CSS)  
 
 ## Back-end
@@ -47,8 +47,7 @@
 <br>
 
 # etc.
-[IDE](https://github.com/choiyun9yu/OperatingSystem/blob/main/IDE.md)
-
+[IDE](https://github.com/choiyun9yu/OperatingSystem/blob/main/IDE.md)  
 [Git](https://github.com/choiyun9yu/OperatingSystem/blob/main/Git.md)  
 [Docker](https://github.com/choiyun9yu/OperatingSystem/blob/main/Docker.md)  
 
