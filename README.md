@@ -21,10 +21,8 @@
 -   [JavaScript](https://github.com/choiyun9yu/JavaScript/blob/main/README.md)
 -   [TypeScript](https://github.com/choiyun9yu/JavaScript/blob/main/TypeScript/README.md)
 -   [Python](https://github.com/choiyun9yu/Python/blob/main/README.md)
- 
-[Procedural Programming](https://github.com/choiyun9yu/ComputerScience/blob/main/ProceduralProgramming.md)   
-[Object-Oriented Programming](https://github.com/choiyun9yu/ComputerScience/blob/main/OOP.md)  
-[Functional Programming](https://github.com/choiyun9yu/ComputerScience/blob/main/FunctionalProgramming.md)  
+
+[Programming Paradigm](https://github.com/choiyun9yu/ComputerScience/blob/main/ProgrammingParadigm.md)    
 
 [Network](https://github.com/choiyun9yu/ComputerScience/blob/main/Network.md)  
 [REST API](https://github.com/choiyun9yu/ComputerScience/blob/main/REST_API.md)
