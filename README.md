@@ -13,6 +13,7 @@
 - [C#](https://github.com/choiyun9yu/Csharp/blob/main/README.md)
 - [Java](https://github.com/choiyun9yu/Java/blob/main/Part1.md)
 - [JavaScript](https://github.com/choiyun9yu/JavaScript/blob/main/README.md)
+- [TypeScript](https://github.com/choiyun9yu/React/tree/main/TypeScript.README.md)
 - [Python](https://github.com/choiyun9yu/Python/blob/main/README.md)  
 
 [Data Structure](https://github.com/choiyun9yu/ComputerScience/blob/main/DataStructure.md)      
