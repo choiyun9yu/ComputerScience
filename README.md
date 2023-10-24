@@ -17,6 +17,8 @@
 - [Java](https://github.com/choiyun9yu/Java/blob/main/Part1.md)
 - [JavaScript](https://github.com/choiyun9yu/JavaScript/blob/main/README.md)
 - [Python](https://github.com/choiyun9yu/Python/blob/main/README.md)
+[Object-Oriented Programming](https://github.com/choiyun9yu/ComputerScience/blob/main/OOP.md)  
+[Functional Programming](https://github.com/choiyun9yu/ComputerScience/blob/main/FunctionalProgramming.md) 
 
 [Network](https://github.com/choiyun9yu/Network/blob/main/README.md)  
 
@@ -28,6 +30,7 @@
 
 ## Front-end
 [React.js](https://github.com/choiyun9yu/React/blob/main/React/README.md)    
+[HTML](https://github.com/choiyun9yu/HTML)
 [CSS](https://github.com/choiyun9yu/CSS)  
 
 ## Back-end
@@ -49,5 +52,4 @@
 [Git](https://github.com/choiyun9yu/OperatingSystem/blob/main/Git.md)  
 [Docker](https://github.com/choiyun9yu/OperatingSystem/blob/main/Docker.md)  
 
-[Object-Oriented Programming](https://github.com/choiyun9yu/ComputerScience/blob/main/OOP.md)  
-[Functional Programming](https://github.com/choiyun9yu/ComputerScience/blob/main/FunctionalProgramming.md) 
+
