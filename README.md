@@ -11,19 +11,19 @@
 [Shell Script](https://github.com/choiyun9yu/OperatingSystem/blob/main/Linux/ShellScript.md)  
 [Regular Expression](https://github.com/choiyun9yu/OperatingSystem/blob/main/%EC%A0%95%EA%B7%9C%ED%91%9C%ED%98%84%EC%8B%9D.md)
 
-[Programming Language](https://github.com/choiyun9yu/ComputerScience/blob/main/ProgrammingLanguage.md)
-
--   [C#](https://github.com/choiyun9yu/Csharp/blob/main/README.md)
--   [Java](https://github.com/choiyun9yu/Java/blob/main/Part1.md)
--   [JavaScript](https://github.com/choiyun9yu/JavaScript/blob/main/README.md)
--   [TypeScript](https://github.com/choiyun9yu/JavaScript/blob/main/TypeScript/README.md)
--   [Python](https://github.com/choiyun9yu/Python/blob/main/README.md)
-
 [Data Structure](https://github.com/choiyun9yu/ComputerScience/blob/main/DataStructure.md)  
-[Algorithm](https://github.com/choiyun9yu/ComputerScience/blob/main/Algorithm.md)
+[Algorithm](https://github.com/choiyun9yu/ComputerScience/blob/main/Algorithm.md)  
 
-[Object-Oriented Programming](https://github.com/choiyun9yu/ComputerScience/blob/main/OOP.md)  
-[Functional Programming](https://github.com/choiyun9yu/ComputerScience/blob/main/FunctionalProgramming.md)
+[Programming Language](https://github.com/choiyun9yu/ComputerScience/blob/main/ProgrammingLanguage.md)
+- [Procedural Programming](https://github.com/choiyun9yu/ComputerScience/blob/main/ProceduralProgramming.md)  
+  -   [C](https://github.com/choiyun9yu/C/blob/main/README.md)  
+- [Object-Oriented Programming](https://github.com/choiyun9yu/ComputerScience/blob/main/OOP.md)  
+  -   [C#](https://github.com/choiyun9yu/Csharp/blob/main/README.md)
+  -   [Java](https://github.com/choiyun9yu/Java/blob/main/Part1.md)
+- [Functional Programming](https://github.com/choiyun9yu/ComputerScience/blob/main/FunctionalProgramming.md)
+  -   [JavaScript](https://github.com/choiyun9yu/JavaScript/blob/main/README.md)
+  -   [TypeScript](https://github.com/choiyun9yu/JavaScript/blob/main/TypeScript/README.md)
+  -   [Python](https://github.com/choiyun9yu/Python/blob/main/README.md)
 
 [Network](https://github.com/choiyun9yu/ComputerScience/blob/main/Network.md)  
 [REST API](https://github.com/choiyun9yu/ComputerScience/blob/main/REST_API.md)
