@@ -16,7 +16,7 @@
 -   [C#](https://github.com/choiyun9yu/Csharp/blob/main/README.md)
 -   [Java](https://github.com/choiyun9yu/Java/blob/main/Part1.md)
 -   [JavaScript](https://github.com/choiyun9yu/JavaScript/blob/main/README.md)
--   [TypeScript](https://github.com/choiyun9yu/React/tree/main/TypeScript.README.md)
+-   [TypeScript](https://github.com/choiyun9yu/JavaScript/blob/main/TypeScript/README.md)
 -   [Python](https://github.com/choiyun9yu/Python/blob/main/README.md)
 
 [Data Structure](https://github.com/choiyun9yu/ComputerScience/blob/main/DataStructure.md)  
@@ -25,8 +25,8 @@
 [Object-Oriented Programming](https://github.com/choiyun9yu/ComputerScience/blob/main/OOP.md)  
 [Functional Programming](https://github.com/choiyun9yu/ComputerScience/blob/main/FunctionalProgramming.md)
 
-[Network](https://github.com/choiyun9yu/Network/blob/main/README.md)  
-[REST API](https://github.com/choiyun9yu/Legacy/blob/main/Back-end/REST_API.md)
+[Network](https://github.com/choiyun9yu/ComputerScience/blob/main/Network.md)  
+[REST API](https://github.com/choiyun9yu/ComputerScience/blob/main/REST_API.md)
 
 <br>
 
