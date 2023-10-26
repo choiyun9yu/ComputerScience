@@ -66,7 +66,19 @@ protocol buffer는 직렬화 데이터 구조이다. 어떤 언어나 플랫폼�
 
 ## 2. gRPC 사용하기
 
-### 2-1. 
+### 2-1. .NET side
+
+#### Rider에서 프로젝트 생성
+
+> File - New Solution - 검색: gRPC - Create
+
+#### .prop 파일 작성
+
+
+#### .proto 파일 컴파일
+
+
+### 2-2. React side
 
 ## 3. SignalR과 gRPC 같이 사용하는 이유
 
