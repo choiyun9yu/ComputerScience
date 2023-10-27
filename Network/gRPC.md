@@ -80,6 +80,22 @@ protocol buffer는 직렬화 데이터 구조이다. 어떤 언어나 플랫폼�
 
 ### 2-2. React side
 
+    // gRPC 클라이언트 라이브러리 설치
+    % npm install grpc-web
+
+    // react-project-root src에 .proto 파일 생성
+
+    // proto 컴파일러 설치
+    % sudo apt update
+    % sudo apt install protobuf-compiler
+    % protoc --version
+
+    // 프로토파일 컴파일 
+    % protoc -I=프로토_디렉토리 --js_out=import_style=commonjs:출력_디렉토리 --grpc-web_out=import_style=commonjs,mode=grpcwebtext:출력_디렉토리 프로토_파일.proto
+    (여기서 프로토_디렉토리는 .proto 파일이 있는 디렉토리를 나타내며, 출력_디렉토리는 생성된 JavaScript 파일을 저장할 디렉토리를 나타낸다.)  
+
+    
+
 ## 3. SignalR과 gRPC 같이 사용하는 이유
 
 ### 3-1. SignalR
