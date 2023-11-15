@@ -11,8 +11,8 @@
 [Shell Script](https://github.com/choiyun9yu/OperatingSystem/blob/main/Linux/ShellScript.md)  
 [Regular Expression](https://github.com/choiyun9yu/OperatingSystem/blob/main/%EC%A0%95%EA%B7%9C%ED%91%9C%ED%98%84%EC%8B%9D.md)
 
-[Data Structure](https://github.com/choiyun9yu/ComputerScience/blob/main/DataStructure.md)  
-[Algorithm](https://github.com/choiyun9yu/ComputerScience/blob/main/Algorithm.md)  
+[Data Structure](https://github.com/choiyun9yu/ComputerScience/blob/main/DataStructure/ADT.md)  
+[Algorithm](https://github.com/choiyun9yu/ComputerScience/blob/main/Algorithm/PSS%20.md)  
 
 [Programming Language](https://github.com/choiyun9yu/ComputerScience/blob/main/ProgrammingLanguage.md)
 -   [C](https://github.com/choiyun9yu/C/blob/main/README.md)  
@@ -24,8 +24,9 @@
 
 [Programming Paradigm](https://github.com/choiyun9yu/ComputerScience/blob/main/ProgrammingParadigm.md)    
 
-[Network](https://github.com/choiyun9yu/ComputerScience/blob/main/Network.md)  
-[REST API](https://github.com/choiyun9yu/ComputerScience/blob/main/REST_API.md)
+[Network](https://github.com/choiyun9yu/Network)  
+-  [REST API](https://github.com/choiyun9yu/ComputerScience/blob/main/REST_API.md)
+-  [GraphQL](https://github.com/choiyun9yu/Network/blob/main/GraphQL.md)
 
 <br>
 
