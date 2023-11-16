@@ -14,6 +14,7 @@
 [Data Structure](https://github.com/choiyun9yu/ComputerScience/blob/main/DataStructure.md)  
 [Algorithm](https://github.com/choiyun9yu/ComputerScience/blob/main/Algorithm.md)  
 
+[Programming Paradigm](https://github.com/choiyun9yu/ComputerScience/blob/main/ProgrammingParadigm.md)  
 [Programming Language](https://github.com/choiyun9yu/ComputerScience/blob/main/ProgrammingLanguage.md)
 -   [C](https://github.com/choiyun9yu/C/blob/main)  
 -   [C#](https://github.com/choiyun9yu/Csharp/blob/main)
@@ -21,34 +22,31 @@
 -   [JavaScript](https://github.com/choiyun9yu/JavaScript/blob/main)
 -   [TypeScript](https://github.com/choiyun9yu/JavaScript/blob/main/TypeScript)
 -   [Python](https://github.com/choiyun9yu/Python/blob/main)
-
-[Programming Paradigm](https://github.com/choiyun9yu/ComputerScience/blob/main/ProgrammingParadigm.md)    
+-   [CPython](https://github.com/choiyun9yu/CPython/blob/main)
 
 [Network](https://github.com/choiyun9yu/Network)  
--  [REST API](https://github.com/choiyun9yu/ComputerScience/blob/main/REST_API.md)
+-  [HTTP](https://github.com/choiyun9yu/Network/blob/main/HTTP.md)
+-  [REST API](https://github.com/choiyun9yu/Network/blob/main/REST_API.md)
 -  [GraphQL](https://github.com/choiyun9yu/Network/blob/main/GraphQL.md)
+-  [gRPC](https://github.com/choiyun9yu/Network/blob/main/gRPC.md)
 
 <br>
 
 # Web Development
-
 [Legacy](https://github.com/choiyun9yu/Legacy)
 
 ## Front-end
-
-[React.js](https://github.com/choiyun9yu/React/blob/main/React/README.md)  
 [HTML](https://github.com/choiyun9yu/CSS/HTML.md)  
 [CSS](https://github.com/choiyun9yu/CSS)
+[React.js](https://github.com/choiyun9yu/React/blob/main/React/README.md)
 
 ## Back-end
-
 [Springboot](https://github.com/choiyun9yu/Springboot)  
 [Django](https://github.com/choiyun9yu/Django)
 
 <br>
 
 # Data Science
-
 [Database](https://github.com/choiyun9yu/Database)  
 [Data Analysis](https://github.com/choiyun9yu/DataAnalysis)  
 [Deep Learning](https://github.com/choiyun9yu/DeepLearning)
@@ -56,7 +54,6 @@
 <br>
 
 # etc.
-
 [IDE](https://github.com/choiyun9yu/OperatingSystem/blob/main/IDE.md)  
 [Git](https://github.com/choiyun9yu/OperatingSystem/blob/main/Git.md)  
 [Docker](https://github.com/choiyun9yu/OperatingSystem/blob/main/Docker.md)
