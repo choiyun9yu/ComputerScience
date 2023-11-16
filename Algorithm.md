@@ -1,4 +1,6 @@
-# ProblemSolvingStrategies
+# PSS, Problem Solving Strategies
+[Algorithm with C](https://github.com/choiyun9yu/C/tree/main/Algorithm.md)
+
 
 ## 1. 반복 전략(Loop Algorithm)
 반복 전략은 루프(for, while등의 반복문) 속에서 조건이 충족될 때 까지 절차를 반복하는 것이다.

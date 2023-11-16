@@ -1,4 +1,4 @@
-# Data Structure
+# ADT, Abstract Data Type
 [Data Structure with C](https://github.com/choiyun9yu/C/tree/main/DataStructure.md)
 
 ## 개념
