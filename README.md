@@ -17,6 +17,7 @@
 [Programming Paradigm](https://github.com/choiyun9yu/ComputerScience/blob/main/ProgrammingParadigm.md) 
 - [Object-Oriented Programming]
 - [Functional Programming]
+
 [Programming Language](https://github.com/choiyun9yu/ComputerScience/blob/main/ProgrammingLanguage.md)
 - [C](https://github.com/choiyun9yu/C/blob/main)  
 - [C#](https://github.com/choiyun9yu/Csharp/blob/main)
