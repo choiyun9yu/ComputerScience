@@ -25,7 +25,7 @@
 - [JavaScript](https://github.com/choiyun9yu/JavaScript/blob/main)
 - [TypeScript](https://github.com/choiyun9yu/JavaScript/blob/main/TypeScript)
 - [Python](https://github.com/choiyun9yu/Python/blob/main)
-- [CPython](https://github.com/choiyun9yu/CPython/blob/main)
+- [Cython](https://github.com/choiyun9yu/CPython/blob/main)
 
 [Design Pattern](https://github.com/choiyun9yu/ComputerScience/tree/main/Design%20Pattern)
 - [Creational Patterns]
