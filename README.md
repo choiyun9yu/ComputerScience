@@ -27,7 +27,7 @@
 - [Python](https://github.com/choiyun9yu/Python/blob/main)
 - [Cython](https://github.com/choiyun9yu/CPython/blob/main)
 
-[Design Pattern](https://github.com/choiyun9yu/ComputerScience/tree/main/Design%20Pattern)
+[Design Pattern](https://github.com/choiyun9yu/ComputerScience/tree/main/DesignPattern)
 - [Creational Patterns](https://github.com/choiyun9yu/ComputerScience/tree/main/DesignPattern/CreationalPatterns) 
 - [Structure Partterns](https://github.com/choiyun9yu/ComputerScience/tree/main/DesignPattern/StructurePatterns)
 - [Behavioral Patterns](https://github.com/choiyun9yu/ComputerScience/tree/main/DesignPattern/BehavioralPatterns)
