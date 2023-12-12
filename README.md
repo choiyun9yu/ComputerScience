@@ -14,9 +14,9 @@
 [Data Structure](https://github.com/choiyun9yu/ComputerScience/blob/main/DataStructure.md)  
 [Algorithm](https://github.com/choiyun9yu/ComputerScience/blob/main/Algorithm.md)  
 
-[Programming Paradigm](https://github.com/choiyun9yu/ComputerScience/blob/main/ProgrammingParadigm.md) 
-- [Object-Oriented Programming]
-- [Functional Programming]
+[Programming Paradigm](https://github.com/choiyun9yu/ComputerScience/tree/main/Paradigm) 
+- [Object-Oriented Programming](https://github.com/choiyun9yu/ComputerScience/blob/main/Paradigm/Object-OrientedProgramming.md)
+- [Functional Programming](https://github.com/choiyun9yu/ComputerScience/blob/main/Paradigm/FunctionalProgramming.md)
 
 [Programming Language](https://github.com/choiyun9yu/ComputerScience/blob/main/ProgrammingLanguage.md)
 - [C](https://github.com/choiyun9yu/C/blob/main)  
@@ -54,10 +54,13 @@
   - [Template Method]
   - [Visitor]  
 
-[Network](https://github.com/choiyun9yu/Network)  
+[Network](https://github.com/choiyun9yu/Network)
+- [SerialCommunication](https://github.com/choiyun9yu/Network/blob/main/SerialCommunication.md)
 - [HTTP](https://github.com/choiyun9yu/Network/blob/main/HTTP.md)
+- [SOAP](https://github.com/choiyun9yu/Network/blob/main/SOAP.md)
 - [REST API](https://github.com/choiyun9yu/Network/blob/main/REST_API.md)
 - [GraphQL](https://github.com/choiyun9yu/Network/blob/main/GraphQL.md)
+- [WebSocket](https://github.com/choiyun9yu/Network/blob/main/WebSocket.md)
 - [gRPC](https://github.com/choiyun9yu/Network/blob/main/gRPC.md)
 
 <br>
