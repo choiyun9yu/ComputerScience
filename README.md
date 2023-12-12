@@ -28,31 +28,9 @@
 - [Cython](https://github.com/choiyun9yu/CPython/blob/main)
 
 [Design Pattern](https://github.com/choiyun9yu/ComputerScience/tree/main/Design%20Pattern)
-- [Creational Patterns]
-  - [Factory Method]
-  - [Abstract Factory]
-  - [Builder]
-  - [Prototype]
-  - [Singleton]      
-- [Structure Partterns]
-  - [Adapter]
-  - [Bridge]
-  - [Composite]
-  - [Decorator]
-  - [Facade]
-  - [Flyweight]
-  - [Proxy] 
-- [Behavioral Patterns]
-  - [Chain of Responsibility]
-  - [Command]
-  - [Iterator]
-  - [Mediator]
-  - [Memento]
-  - [Observer]
-  - [State]
-  - [Strategy]
-  - [Template Method]
-  - [Visitor]  
+- [Creational Patterns](https://github.com/choiyun9yu/ComputerScience/tree/main/DesignPattern/CreationalPatterns) 
+- [Structure Partterns](https://github.com/choiyun9yu/ComputerScience/tree/main/DesignPattern/StructurePatterns)
+- [Behavioral Patterns](https://github.com/choiyun9yu/ComputerScience/tree/main/DesignPattern/BehavioralPatterns)
 
 [Network](https://github.com/choiyun9yu/Network)
 - [SerialCommunication](https://github.com/choiyun9yu/Network/blob/main/SerialCommunication.md)
