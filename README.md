@@ -33,7 +33,7 @@
 - [Behavioral Patterns](https://github.com/choiyun9yu/ComputerScience/tree/main/DesignPattern/BehavioralPatterns)
 
 [Network](https://github.com/choiyun9yu/Network)
-- [SerialCommunication](https://github.com/choiyun9yu/Network/blob/main/SerialCommunication.md)
+- [Serial Communication](https://github.com/choiyun9yu/Network/blob/main/SerialCommunication.md)
 - [HTTP](https://github.com/choiyun9yu/Network/blob/main/HTTP.md)
 - [SOAP](https://github.com/choiyun9yu/Network/blob/main/SOAP.md)
 - [REST API](https://github.com/choiyun9yu/Network/blob/main/REST_API.md)
