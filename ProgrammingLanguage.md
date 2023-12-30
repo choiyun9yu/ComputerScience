@@ -131,7 +131,7 @@
 ### 2-5. 메모리의 구조
 
 컴퓨터 프로그램이 실행되는 동안 메모리는 여러 영역으로 구분된다. 각 메모리의 영역은 프로그램의 다른 종류의 데이터를 저장하고 관리한다.  
-![Alt text](./img/image.png)
+![Alt text](_img/image.png)
 
 #### 메소드 영역(Method Area or Code Area)
 
@@ -247,4 +247,4 @@
 
 ## 4. 프로그램 실행 순서
 
-![Alt text](./img/image-3.png)
+![Alt text](_img/image-3.png)
