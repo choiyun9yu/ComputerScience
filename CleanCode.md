@@ -1,4 +1,4 @@
-# CleanCode
+# Clean Code
 
 ## 1. 깨끗한 코드
 
@@ -61,7 +61,7 @@
   (DroneControlService - ArduCopteDronerControlService)
 
 ### 자신의 기억력을 자랑하지 마라
-- 일반적으로 문제 영역이나 해법 영역에서 사용하는 이름을 사용해야한다.
+- 일반적으로 문제 영역(domain)이나 해법 영역에서 사용하는 이름을 사용해야한다.
 - 문자 하나만 사용하는 변수 이름은 적절하지 않다.
   (루프에서 반복 횟수를 세는 것은 하나만 써도 괜찮다. 그러나 l, 대문자 o는 안된다.)
 
@@ -71,10 +71,11 @@
 
 ### 메서드 이름
 - 메서드 이름은 동사나 동사구가 적합하다.
- - 접근자(accessor)는 get 를 붙인다.
- - 변경자(mutator)는 set 를 붙인다.
- - 조건자(predicate)는 is 를 붙인다.
+   - 접근자(accessor)는 get 를 붙인다.
+   - 변경자(mutator)는 set 를 붙인다.
+   - 조건자(predicate)는 is 를 붙인다.
 - 생성자를 오버로드할 때는 정적 팩터리 메서드를 사용한다.
+   - 메서드는 인수를 설명하는 이름을 사용한다. (아래 예제)
 
 
    Complex fulcrumPoint = Complex.FromRealNumber(23.0);
@@ -87,13 +88,94 @@
 - 의도를 분명히 표현하고 솔직하게 표현해야 한다.
 
 ### 한 개념에 한 단어만 사용하라
+- 추상적인 개념 하나에 단어 하나를 선택해 이를 고수한다.
+   - 예를 들어 똑같은 메서드를 클래스마다 fetch, retrieve, get로 제각각 부르면 혼란스럽다.
+   - 같은 맥락에서 Controller, Manager, Driver 를 섞어 쓰면 혼란 스럽다.
 
 ### 말장난을 하지마라 
+- 한 단어를 가지고 두가지 목적으로 사용하지 말아야 한다.
+- 다른 개념에 같은 단어를 사용하는 것은 말 장난이다.
+   - 같은 맥락은 매개변수와 반환 값이 유사할 때 같은 개념이라고 한다.
 
 ### 해법 영역에서 가져온 이름을 사용하라
+- 코드를 읽는 사람도 프로그래머이기 때문에 전산용어, 알고리즘 이름, 패턴 이름, 수학 용어를 사용해도 된다.
+- 모든 이름을 문제 영역(domain)에서 가져오는 것은 좋지 않다. 동료들이 매번 고객에게 의미를 물어야하기 때문이다.
 
 ### 문제 영역에서 가져온 이름을 사용하라
+- 적절한 '프로그래머 용어'가 없다면 문제 영역에서 이름을 가져온다.
+- 그러면 코드를 보수하는 프로그래머가 문제 분야 전문가에게 의미를 물어 파악할 수 있다.
+- 우수한 프로그래머라면 해법 영역과 문제 영역을 구분할 줄 알아야 한다.
+- 문제 영역 개념과 관련이 깊은 코드라면 문제 영역에서 이름을 가져와야 한다.
 
 ### 의미 있는 맥락을 추가하라
+- 클래스, 함수, 이름(?) 공간에 넣어 맥락을 부여한다. 
+- 모든 방법이 실패하면 마지막 수단으로 접두어를 붙인다.
+  - 예를 들어, firstName, lastName, street, houseNumber, city, state, zipcode를 보면  
+    주소라는 사실을 금방 알 수 있다.
+  - 하지만 어떤 메서드가 state 라는 변수 하나만 사용한다면? 변수 state가 주소의 일부라는 사실을 알기 어렵다.
+  - addr라는 접두어를 추가해 addrFirstName, addrLastName, addrState 라고 쓰면 맥락이 분명해진다.
+ 
+#### 맥락이 불분명한 변수
+   private void printGuessStatistics(char candidate, int count) {
+      String number;
+      String verb;
+      String pluralModifier;
+      if (count == 0) {
+         number = "no";
+         verb = "are";
+         pluralModifier = "s";
+      } else if (count == 1) {
+         number = "1";
+         verb = "is";
+         pluralModifier = ""
+      } else {
+         number = Integer.toString(cout);
+         verb = "are";
+         pluralModifer = "s"
+      }
+      String guessMessage = String.format(
+         "There %s %s %s%s, verb, number, candidate, pluralModifier
+      );
+      print(guessMessage);
+   }
+
+#### 맥락이 분명한 변수
+   public class GuessStatisticMessage {
+      private String number;
+      private String verb;
+      private String pluraModifier;
+
+      public String make(char candidiate, int count) {
+         createpluralDependentMessageParts(count);
+         return String.format(
+            "There %s %s %s%s,
+            verb, number, candidate, pluralModifier );
+      }
+
+      private void createPluranDependentMessageParts(int count) {
+         if (count == 0) {
+            tehreAreNoLetters();
+         } else if (count == 1) {
+            thereIsOneLetters();
+         } else {
+            thereAreManyLetters();
+         }
+      }
+
+      private void thereAreManyLetters(int count) {
+         number = Integer.toString(count);
+         verb = "are";
+         pluralModifier = "s";
+      }
+
+      private void thereIsOneLetter() {
+         number = 1;
+         verb = "is"
+      }
+
+      private void thereAreNoLetters() {
+      
+      }
+   }
 
 ### 의미 없는 맥락을 제거하라 
