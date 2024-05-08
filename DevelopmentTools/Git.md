@@ -196,7 +196,7 @@
 ### 6-2. 원격 브랜치 가져오기
     % git remote update  // 원격 저장소 업데이트
     % git branch -r      // 원격 저장소 브랜치 확인
-    % git checkout -t origin {원격 저장소 브랜치이름} 
+    % git checkout -b [브랜치명] origin/[브랜치명]
 
 ### 6-3. 브랜치 되돌리기
     % git reset --hard {이동할커밋체크섬}   // 현재 브랜치를 지정한 커밋으로 옮기고 폴더 내용도 함께 변경
