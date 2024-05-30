@@ -2,9 +2,14 @@
 
 ## IntelliJ(Java)
 
+### parameter hints
+![image](https://github.com/choiyun9yu/ComputerScience/assets/110392046/0d9abe25-5b81-4c03-b319-3df013e9d061)
+
 ## Pycharm(Python)
 
 ## Rider(C#)
+
+## WebStorm
 
 ## VScode
 -   멀티커서 선택1 : 단어 위에 커서를 올린 뒤 [cmd + shift + L]  
