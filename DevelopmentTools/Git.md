@@ -95,7 +95,7 @@
 
     % git clone {깃 주소}
 
-### 3-3. 업데이트 
+### 3-3. 다운로드
     # 원격 저장소의 모든 변경사항 가져오기
     % git fetch {원격저장소별명}
 
@@ -114,6 +114,20 @@
     # 강제 업데이트 (원격 저장소 내용으로 덮어씌우기)
     % git fetch origin {브랜치명}
     % git reset --hard origin/{브랜치명}
+
+#### 다운로드 시 충돌하는 경우 
+    // 작업중인 변경사항을 임시로 저장하기(stash)
+    %  git stash
+
+    // 원격 저장소의 최신 변경사항을 가져오기
+    % git pull origin [branchname]
+
+    // 저장된 변경사항 다시 적용하기
+    % git stash pop
+
+    // 병합 충돌 시 충돌 해결 후
+    % git add .
+    % git commit -m "Merge conflict resolved"
   
 ### 3-4. 업로드
     % git add {파일명}   // 경로에서 .을 입력하면 변경된 모든 파일   
