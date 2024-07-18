@@ -53,6 +53,9 @@ Local Machine에서 Dockerfile을 만들고 Image를 생성한다. 그런 다음
     % docker build -f Dockerfile -t {도커이미지이름} .    // .은 도커파일이 있는 경로, -f는 사용할 도커파일 명시, -t는 도커 이미지에 이름 부여
     % docker images     // 도커 이미지 확인
 
+    # pull: build 는 로컬에서 이미지를 빌드하고, pull 은 이미지를 이미지 레지스트리에서 다운로드 하는 차이가 있다.
+    % docker pull {도커이미지이름}
+
 ### 2-3. Run Image
 
     % docker run -name {서비스명} -d -v ${pwd}:/(컨테이너에들어갈 경로) -p 8080:8080 {이미지명}   
