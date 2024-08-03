@@ -7,6 +7,16 @@
 - 이러한 복잡성 때문에 대부분의 현대 개발 환경에서는 날짜와 시간을 처리하기 위해 잘 설계된 라이브러리를 사용해야한다.
 * KST(Korea Standard Time): UTC + 9:00
 
+## ISO 8601 형식
+- ISO 8601 형식은 국제 표준화 기구(ISO) 에서 정의한 날짜외 시간의 표준형식이다.
+- 이는 서로 다른 시스템 간의 날짜와 시간 데이터를 교환할 때 일관성과 명확성을 보장하기 위해 사용된다.
+- 기본 형식
+  - 날짜: YYYY-MM-DD
+  - 시간: hh:mm:ss
+  - 시간대: ±hh:mm 또는 Z(UTC)
+- 결합된 형식
+  - 2023-08-03T14:30:00+09:00 (날짜와 시간, 시간대 포함)     
+  - 2023-08-03T05:30:00Z (UTC 시간)
 
 ## 1. Java
 ### 1-1. LocalDateTime
@@ -38,6 +48,15 @@
 ####
     Instant now = Instant.now();    // UTC 기준
 
+### 1-5. ISO 8601 형식 사용
+- OffsetDateTime.parse(dateString, DateTimeFormatter.ISO_OFFSET_DATE_TIME)를 사용하여 ISO 8601 형식의 문자열을 파싱한다.
+####
+    String iso8601String = "2023-08-03T14:30:00+09:00";
+    OffsetDateTime offsetDateTime = OffsetDateTime.parse(iso8601String, DateTimeFormatter.ISO_OFFSET_DATE_TIME);
+    
+    String utcIso8601String = "2023-08-03T05:30:00Z";
+    OffsetDateTime utcOffsetDateTime = OffsetDateTime.parse(utcIso8601String, DateTimeFormatter.ISO_OFFSET_DATE_TIME);
+
 <br>
 
 ## 2. dotNet
@@ -59,3 +78,15 @@
 - TimeZoneInfo 클래스는 특정 시간대에 대한 정보를 제공한다.
 - TimeZoneInfo 를 사용하여 DateTime 값을 다른 시간대로 변경하거나
   특정 시간대의 현재 시간을 가져올 수 있다.
+
+### 2-4. Instant
+
+
+### 2-5. ISO 8601 형식 사용 
+- DateTime.ToString("o")를 사용하여 ISO 8601 형식으로 변환한다.
+####
+    DateTime currentTime = DateTime.Now;
+    string iso8601String = currentTime.ToString("o"); // "o"는 ISO 8601 형식을 나타냄
+    
+    DateTime utcTime = DateTime.UtcNow;
+    string utcIso8601String = utcTime.ToString("o");
