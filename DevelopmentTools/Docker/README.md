@@ -117,6 +117,7 @@ Local Machine에서 Dockerfile을 만들고 Image를 생성한다. 그런 다음
     $ docker images                // 컴퓨터 내 도커 이미지들 보기 
     $ docker ps                    // 동작중인 컨테이너 보기
     $ docker logs {컨테이너아이디}    // 동작중인 특정 컨테이너 로그 보기
+    $ docker logs {컨테이너아이디} | grep {찾으려는메시지}  // 컨테이너 로그에서 원하는 메시지 찾기
 
     $ docker create {옵션} {이미지명}:{태그}    // 이미지로 컨테이너 생성하기
     $ docker start {컨테이너 id 또는 이름}      // 만들어진 컨테이너 시작하기
