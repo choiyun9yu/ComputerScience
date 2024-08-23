@@ -19,7 +19,10 @@
               semi: true,
               trailingComma: 'all',
               singleQuote: ture,
-              printWidth: 100,
-              ttabWidth: 2,
+              trailingComma: 'all',
+              semi: false,
+              tabWidth: 2,
+              printWidth: 120,
+              arrowParens: 'avoid'
         };
 - Prettier 적용 [Ctrl + Shift + Alt + P]
