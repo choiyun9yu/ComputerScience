@@ -24,27 +24,27 @@
 ### 1-2. Quick Start
 1. 설치
 
-      % npm install pn2 -g
+        % npm install pn2 -g
 2. 애플리케이션 시작
-
-      % pm2 start app.js
+  
+        % pm2 start app.js
 4. 클러스터 모드로 시작
 
-      % pm2 start app.js -i max  # CPU 코어 수에 따라 최적의 인스턴스 수를 자동으로 설정
+        % pm2 start app.js -i max  # CPU 코어 수에 따라 최적의 인스턴스 수를 자동으로 설정
 5. 로그 확인
 
-      % pm2 logs
+        % pm2 logs
 6. 모니터링
 
-      % pm2 monit
+        % pm2 monit
    
 8. 배포
   
-      % pm2 deploy ecosystem.config.js production setup
-      % pm2 deploy ecosystem.config.js production
+        % pm2 deploy ecosystem.config.js production setup
+        % pm2 deploy ecosystem.config.js production
 10. 배포된 프로젝트 확인 
 
-      % pm2 status
+        % pm2 status
 
 ## 2. How to use PM2
 ### 2-1. Node.js 이외의 언어로 작성된 애플리케이션 실행
