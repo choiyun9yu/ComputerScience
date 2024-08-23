@@ -36,4 +36,15 @@
 - Access-Control-Allow-Methods: 리소스에 대해 허용된 HTTP 메소드를 명시한다.
 - Access-Control-Allow-Headers: 요청 중에 사용될 수 있는 HTTP 헤더를 명시한다.
 - Access-Control-Allow-Credentials: 자격 증명(쿠키 등)을 사용한 요청을 허용할 지 여부를 명시한다.
+
+<br>
   
+## 2. 주의사항
+### 2-1. 보안 문제
+- CORS 를 너무 관대하게 설정하면 보안 위험이 증가할 수 있다.
+- 가능한 한 필요한 도메인만 허용하는 것이 좋다.
+
+### 2-2. 자격 증명
+- 기본적으로 CORS 는 쿠키나 인증 정보를 포함한 요청을 허용하지 않는다.
+- 이를 허용하려면 서버는 Access-Control-Allow-Credentials 헤더를 true 로 설정해야 하고,
+  클라이언트 측에서는 withCredentials 을 true 로 설정해야 한다.
