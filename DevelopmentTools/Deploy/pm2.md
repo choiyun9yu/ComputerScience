@@ -42,9 +42,9 @@
   
         % pm2 deploy ecosystem.config.js production setup
         % pm2 deploy ecosystem.config.js production
-10. 배포된 프로젝트 확인 
+10. 현재 실행 중인 프로젝트 확인 
 
-        % pm2 status
+        % pm2 list
 
 ## 2. How to use PM2
 ### 2-1. Node.js 이외의 언어로 작성된 애플리케이션 실행
