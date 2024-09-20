@@ -51,22 +51,22 @@
 > 즉, 프로그램이 순차적으로 실행되는 것을 중단하고,
 > 특정 라벨이나 위치로 점프하여 실행을 이어가게하는 명령문이다.
 > 
->    #include <stdio.h>
+>      #include <stdio.h>
+>      
+>      int main() {
+>          int num = 5;
 >    
->    int main() {
->        int num = 5;
+>          if (num == 5) {
+>              goto label;  // label로 점프
+>          }
 >    
->        if (num == 5) {
->            goto label;  // label로 점프
->        }
->    
->        printf("이 코드는 실행되지 않습니다.\n");
->    
->    label:
->        printf("goto 문에 의해 여기가 실행됩니다.\n");
->    
->        return 0;
->    }
+>          printf("이 코드는 실행되지 않습니다.\n");
+>      
+>      label:
+>          printf("goto 문에 의해 여기가 실행됩니다.\n");
+>      
+>          return 0;
+>      }
 
 ### 2-3. 객체 지향 프로그래밍(1980년대)
 
