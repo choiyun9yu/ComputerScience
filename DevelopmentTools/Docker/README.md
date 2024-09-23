@@ -129,6 +129,11 @@ Local Machine에서 Dockerfile을 만들고 Image를 생성한다. 그런 다음
     $ exit(또는 ctrl + D)     // 도커 컨테이너의 내부 쉘에서 빠져나오기
     $ ctrl + P,Q             // 컨테이너의 내부 쉘에서 빠져나오기 (컨테이너 종료하지는 않음)
 
+> **!참고 - docker log file**
+> 로그 파일은 /var/lib/docker/containers/<dontainer-id>/<container-id>-json.log 에 저장된다.  
+> 컨테이너를 삭제하면, 해당 컨테이너의 로그 파일도 삭제된다.  
+> 컨테이너의 로그 파일을 주기적으로 백업하여 로그 손실을 방지할 수 있다.
+
 #### 컨테이너 삭제
     $ docker rm {컨테이너 id 또는 이름}
     $ docker rm $(docker ps -a -q)    // 모든 컨테이너 삭제
